@@ -9,6 +9,8 @@ cd ~/Downloads
 git clone https://github.com/agnoster/agnoster-zsh-theme.git
 
 
+# Remove Oh My Zsh
+rm -r /home/bryan/.oh-my-zsh
 
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
@@ -22,9 +24,6 @@ rm -r ~/Downloads/agnoster-zsh-theme
 
 
 #update profile
-sed -i 's/ZSH_THEME="robbyrussell"
-/ZSH_THEME="agnoster"
-/g' file.txt
 
 
 
